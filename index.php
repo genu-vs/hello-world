@@ -3,7 +3,7 @@
 
 <head>
 
-<title>WEBSITE IN NOTEPAD</title>
+<title>FACE YOUR FEAR</title>
 <link rel="stylesheet" type="text/css" href="css/legend.css"/>
 <link rel="icon" href="images/favicon.ico" type="favicon">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
