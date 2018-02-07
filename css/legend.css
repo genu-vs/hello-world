@@ -3,6 +3,10 @@
 #ques
 {font-size:20px;}
 
+p.thick {
+    font-weight: bold;
+}
+
 
 #header
 {background-color :black;
