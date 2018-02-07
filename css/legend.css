@@ -1,4 +1,4 @@
-﻿*
+*
 {font-size:15px;}
 
 #header
@@ -17,6 +17,11 @@ height:50px;
 padding-left:60px;
 float:top;}
 
+#vno
+{color:black;
+float:left;
+background-color :white;
+}
 
 
 ul#navmenu 
@@ -102,12 +107,20 @@ margin:10px;}
 {visibility:hidden;}
 #rep2
 {visibility:hidden;}
+#anss
+{visibility:visible;
+float:left;
+}
+#ansswer1 li
+{float:left;
+margin-left:13px;
+margin-bottom:30px;}
 
 p
 {font-size :15px;}
 
 #ans
-{
+{visibility:hidden;
 	height:50px;
 width:400px;
 margin-bottom:30px;
