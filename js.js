@@ -227,11 +227,11 @@ b.innerHTML='Hobbies and Interests';}
 b.innerHTML='Hobbies and Interests';}
  
  else if(no==14)
-{a.innerHTML= '\n Rate your interest in Shopping: ';
+{a.innerHTML= '\n Rate your interest in Dancing: ';
 b.innerHTML='Hobbies and Interests';}
  
  else 
-{a.innerHTML= '\n Rate your interest in Dancing: ';
+{a.innerHTML= '\n Rate your interest in Shopping: ';
 b.innerHTML='Hobbies and Interests';}
  
  }
