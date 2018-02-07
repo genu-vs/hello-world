@@ -10,9 +10,9 @@
 
 </head>
 <?php
-$ser="localhost";
-$user="root";
-$pass="";
+$ser="den1.mysql6.gear.host";
+$user="projectone";
+$pass="Kh8gT-vPWis-";
 $db="website";
 $con=mysqli_connect($ser,$user,$pass,$db)
 ?>
