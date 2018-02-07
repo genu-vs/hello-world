@@ -22,7 +22,7 @@ if(b!=0)
 	 
 	 }	
 else if(c!=0)
-	{if(an[pg-1]==0){
+	{if(an[pg-1]==0&&c==1){
 var a=confirm("ENTER ANSWER");
 }
     else {
