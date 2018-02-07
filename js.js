@@ -179,59 +179,59 @@ var b=document.getElementById('gametitlebox');
 	b.innerHTML='A bit about you...';}
  
  else if(no==2)
-{a.innerHTML= ' Do you care about your health? ';
+{a.innerHTML= ' \n Do you care about your health? ';
 b.innerHTML='A bit about you...';} 
  
  else if(no==3)
-{a.innerHTML= 'Can you quickly adapt to a new environment? ';
+{a.innerHTML= '\n Can you quickly adapt to a new environment? ';
 b.innerHTML='A bit about you...';}
  
  else if(no==4)
-{a.innerHTML= 'Are you a hypochondriac? \n (Meaning: A person who is abnormally anxious) ';
+{a.innerHTML= '\n Are you a hypochondriac? \n (Meaning: A person who is abnormally anxious) ';
 b.innerHTML='Personality traits';}
  
  else if(no==5)
-{a.innerHTML= 'Do you cry when you feel down or things do not go the right way? ';
+{a.innerHTML= '\n Do you cry when you feel down or things do not go the right way? ';
 b.innerHTML='Personality traits';}
  
  else if(no==6)
-{a.innerHTML= 'Are you a person who is full of life and energy? ';
+{a.innerHTML= '\n Are you a person who is full of life and energy? ';
 b.innerHTML='Personality traits';}
  
  else if(no==7)
-{a.innerHTML= 'Do you have a lot of friends? ';
+{a.innerHTML= '\n Do you have a lot of friends? ';
 b.innerHTML='Friendship!';}
  
  else if(no==8)
-{a.innerHTML= 'Are you sure that you connect with the right people? ';
+{a.innerHTML= '\n Are you sure that you connect with the right people? ';
 b.innerHTML='Friendship!';}
  
  else if(no==9)
-{a.innerHTML= 'Do you get angry very easily?';
+{a.innerHTML= '\n Do you get angry very easily?';
 b.innerHTML='Personality traits';}
  
  else if(no==10)
-{a.innerHTML= 'Rate your interest in Physics: ';
+{a.innerHTML= '\n Rate your interest in Physics: ';
 b.innerHTML='Hobbies and Interests';}
  
  else if(no==11)
-{a.innerHTML= 'Rate your interest in Science and Technology: ';
+{a.innerHTML= '\n Rate your interest in Science and Technology: ';
 b.innerHTML='Hobbies and Interests';}
  
  else if(no==12)
-{a.innerHTML= 'Rate your interest in Celebrity lifestyle: ';
+{a.innerHTML= '\n Rate your interest in Celebrity lifestyle: ';
 b.innerHTML='Hobbies and Interests';}
  
  else if(no==13)
-{a.innerHTML= 'Rate your interest in Adrenaline Sports: ';
+{a.innerHTML= '\n Rate your interest in Adrenaline Sports: ';
 b.innerHTML='Hobbies and Interests';}
  
  else if(no==14)
-{a.innerHTML= 'Rate your interest in Shopping: ';
+{a.innerHTML= '\n Rate your interest in Shopping: ';
 b.innerHTML='Hobbies and Interests';}
  
  else 
-{a.innerHTML= 'Rate your interest in Dancing: ';
+{a.innerHTML= '\n Rate your interest in Dancing: ';
 b.innerHTML='Hobbies and Interests';}
  
  }
