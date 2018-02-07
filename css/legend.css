@@ -111,13 +111,19 @@ margin:10px;}
 {visibility:hidden;}
 #anss
 {visibility:visible;
+	height:50px;
+width:400px;
+margin-bottom:30px;
+margin-left:10px;
+margin-right:10px;
+background-color:white;
 float:left;
 }
 #ansswer1 li
 {float:left;
 margin-left:13px;
 margin-bottom:30px;
-float:left;}
+}
 
 p
 {font-size :15px;}
