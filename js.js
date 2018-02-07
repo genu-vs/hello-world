@@ -22,7 +22,11 @@ if(b!=0)
 	 
 	 }	
 else if(c!=0)
-	{if(c==1)
+	{if(an[pg-1]==0){
+var a=confirm("ENTER ANSWER");
+}
+    else {
+		if(c==1)
 		pg=pg+1;
 	else
 		pg=pg-1;
@@ -34,14 +38,16 @@ else if(c!=0)
 		set2(pg%5);
 	
 	}
+	}
 else
 	{pg=(3*(a-1))+1;
-
+	
 set2(1);
 	set1(a);
-	
+
 
 	}
+	 
 	
 
 setimg(pg);
@@ -49,23 +55,32 @@ setqu(pg);
 
 	hid(pg);
 	col(pg);
+	 }
 
-}
 
 
-	
+
+
 function hid(num)
 {if(num==15)
-	{document.getElementById('rep').style.visibility = "hidden";
+	{document.getElementById('ans').style.visibility = "visible";
+document.getElementById('anss').style.visibility = "hidden";
+		document.getElementById('rep').style.visibility = "hidden";
 document.getElementById('rep1').style.visibility = "visible";
 document.getElementById('rep2').style.visibility = "visible";
  }  
  else if(num==1)
- {document.getElementById('rep1').style.visibility = "hidden";
+ {document.getElementById('ans').style.visibility = "hidden";
+document.getElementById('anss').style.visibility = "visible";
+	 
+	 document.getElementById('rep1').style.visibility = "hidden";
 document.getElementById('rep').style.visibility = "visible";
 document.getElementById('rep2').style.visibility = "hidden";}
 else
-{document.getElementById('rep1').style.visibility = "hidden";
+{document.getElementById('ans').style.visibility = "visible";
+document.getElementById('anss').style.visibility = "hidden";
+	 
+	document.getElementById('rep1').style.visibility = "hidden";
 document.getElementById('rep').style.visibility = "visible";
 document.getElementById('rep2').style.visibility = "visible";}
 }
@@ -79,8 +94,28 @@ image.src="image/qnimg"+imgno+".jpg";
 }
 
 function col(qo1)
-{
+{ if(qo1==1)
+	{
+		z1=an[0];
+		var a1=document.getElementById('anss1');
+var a2=document.getElementById('anss2');
+
+if(z1==0)
+{a1.className="w3-button w3-white w3-border w3-border-blue w3-round-large";
+	a2.className="w3-button w3-white w3-border w3-border-pink w3-round-large";}
+else if(z1==1)
+{a1.className="w3-button w3-blue w3-border w3-border-blue w3-round-large";
+	a2.className="w3-button w3-white w3-border w3-border-pink w3-round-large";}
+	else
+	{a1.className="w3-button w3-white w3-border w3-border-blue w3-round-large";
+	a2.className="w3-button w3-pink w3-border w3-border-pink w3-round-large";}
 	
+	
+	
+	}
+	
+	else
+	{
 	z=an[qo1-1];
 var a1=document.getElementById('ans1');
 var a2=document.getElementById('ans2');
@@ -131,7 +166,7 @@ var a5=document.getElementById('ans5');
 	a3.className="w3-button w3-white w3-border w3-border-yellow w3-round-large";
 	a4.className="w3-button w3-white w3-border w3-border-orange w3-round-large";
 	a5.className="w3-button w3-red w3-border w3-border-red w3-round-large";
-	} 
+	} }
 	
 }
 
@@ -224,6 +259,10 @@ l3.className="w3-button w3-circle w3-disable";
 	
 
 function save(n)
+{an[pg-1]=n;
+col(pg);
+}
+function ssave(n)
 {an[pg-1]=n;
 col(pg);
 }
