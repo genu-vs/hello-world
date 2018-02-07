@@ -179,11 +179,11 @@ var b=document.getElementById('gametitlebox');
 	b.innerHTML='A bit about you...';}
  
  else if(no==2)
-{a.innerHTML= ' \n Do you care about your health? ';
+{a.innerHTML= ' \n \n \n Do you care about your health? ';
 b.innerHTML='A bit about you...';} 
  
  else if(no==3)
-{a.innerHTML= '\n Can you quickly adapt to a new environment? ';
+{a.innerHTML= '\n \n \n Can you quickly adapt to a new environment? ';
 b.innerHTML='A bit about you...';}
  
  else if(no==4)
