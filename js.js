@@ -33,9 +33,9 @@ var a=confirm("ENTER ANSWER");
 	
 	set1((Math.trunc((pg-1)/3))+1);
 	if(pg%3==0)
-		set2(5);
+		set2(3);
 	else if(pg!=16)
-		set2(pg%5);
+		set2(pg%3);
 	
 	}
 	}
