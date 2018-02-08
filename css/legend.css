@@ -51,6 +51,13 @@ height:2800px;
 	
 }
 
+#center2
+{
+background-color:dcdcdc;
+height:1800px;
+	
+}
+
 
 ul#navmenu li
 {
@@ -77,6 +84,11 @@ float:left;}
 {width:1550px;
 margin-left:20px;
 height:2100px;}
+
+#gamebox2
+{width:1550px;
+margin-left:20px;
+height:1600px;}
 
 
 #description
