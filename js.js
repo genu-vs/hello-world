@@ -340,7 +340,7 @@ z[8]=((-0.12965)*an[2])-((0.23442)*an[5])+((1.55251));
 for(i=0;i<9;i++)
 {var zz=Math.exp(z[i]);
 var zzz=(zz)/(1+zz)*100;
-res[i]=zzz;
+res[i]=Math.trunc(zzz);
 }
 
 }
@@ -359,7 +359,7 @@ z[8]=((-0.11077)*an[2])-((0.16782)*an[6])-((0.13821)*an[5])+((1.96805));
 for(i=0;i<9;i++)
 {var zz=Math.exp(z[i]);
 var zzz=(zz)/(1+zz)*100;
-res[i]=zzz;
+res[i]=Math.trunc(zzz);
 }
 
 }
