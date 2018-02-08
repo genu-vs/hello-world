@@ -6,7 +6,13 @@
 p.thick {
     font-weight: bold;
 }
-
+#starthere
+{float:bottom;
+margin-bottom:40px;
+}
+#description
+{float:top;
+top-margin:20px;}
 
 #header
 {background-color :black;
