@@ -46,9 +46,9 @@ $con=mysqli_connect($ser,$user,$pass,$db)
 </div>
 
 <div id="center1">
-<p><b><?php
-echo "NUMBER OF VIEWS: ".$row["views"];
-	?></p>
+<b><?php
+echo "<p>NUMBER OF VIEWS:</p> ".$row["views"];
+	?>
 <div id="gamebox1">
 
 
