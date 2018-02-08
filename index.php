@@ -47,9 +47,9 @@ $con=mysqli_connect($ser,$user,$pass,$db)
 
 </div>
 
-<div id="center">
+<div id="center1">
 
-<div id="gamebox">
+<div id="gamebox1">
 
 <div id="descrption">
 <?php
