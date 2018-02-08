@@ -13,7 +13,7 @@
 $ser="den1.mysql6.gear.host";
 $user="projectone";
 $pass="Kh8gT-vPWis-";
-$db="projectone";
+$db="website";
 $con=mysqli_connect($ser,$user,$pass,$db)
 ?>
 
@@ -45,16 +45,16 @@ $con=mysqli_connect($ser,$user,$pass,$db)
 
 </div>
 
-<div id="center1">
+<div id="center">
 
-<div id="gamebox1">
+<div id="gamebox">
 
 <div id="descrption">
 <?php
 echo "view no:" .$row["views"];
 ?>
 </div>
-	<div id="description1"><img id="hm" src="image/des.jpg"></div>
+
 <div id="starthere"><center><a href="goto.php"><img id="hm" src="image/start.jpg" ></a></center><div>
 
 </div>
