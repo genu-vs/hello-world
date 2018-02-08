@@ -45,7 +45,7 @@ $con=mysqli_connect($ser,$user,$pass,$db)
 
 </div>
 
-<div id="center">
+<div id="center1">
 <?php
 echo "view no:" .$row["views"];
 ?>
