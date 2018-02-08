@@ -8,10 +8,12 @@ p.thick {
 }
 #starthere
 {float:bottom;
-margin-bottom:40px;
+margin-bottom:10px;
 }
 #description
-{float:top;
+{  width:1200px;
+	height:3000px;
+	float:top;
 top-margin:20px;}
 
 #header
@@ -73,7 +75,8 @@ float:left;}
 	
 }
 #gamebox1
-{width :1500px;}
+{width :1200px;}
+
 #description
 {width:1000px;
 height:350px;
