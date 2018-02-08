@@ -165,63 +165,63 @@ function setqu(no)
 var b=document.getElementById('gametitlebox');
 	
 	if(no==1)
-	{a.innerHTML= '\nPicture! Gender';
+	{a.innerHTML= '\xa0\xa0\xa0\xa0\xa0\xa0\xa0'+'Gender';
 	b.innerHTML='A bit about you...';}
  
  else if(no==2)
-{a.innerHTML= ''\xa0\xa0\xa0\xa0\xa0\xa0\xa0'+ 'Do you care about your health? ';
+{a.innerHTML= '\xa0\xa0\xa0\xa0\xa0\xa0\xa0'+'Do you care about your health? ';
 b.innerHTML='A bit about you...';} 
  
  else if(no==3)
-{a.innerHTML= '\nPicture! Can you quickly adapt to a new environment? ';
+{a.innerHTML= '\xa0\xa0\xa0\xa0\xa0\xa0\xa0'+'Can you quickly adapt to a new environment? ';
 b.innerHTML='A bit about you...';}
  
  else if(no==4)
-{a.innerHTML= '\nPicture! Are you a hypochondriac? \n (Meaning: A person who is abnormally anxious) ';
+{a.innerHTML= '\xa0\xa0\xa0\xa0\xa0\xa0\xa0'+'Are you a hypochondriac? \n (Meaning: A person who is abnormally anxious) ';
 b.innerHTML='Personality traits';}
  
  else if(no==5)
-{a.innerHTML= '\nPicture! Do you cry when you feel down or things do not go the right way? ';
+{a.innerHTML= '\xa0\xa0\xa0\xa0\xa0\xa0\xa0'+'Do you cry when you feel down or things do not go the right way? ';
 b.innerHTML='Personality traits';}
  
  else if(no==6)
-{a.innerHTML= '\nPicture! Are you a person who is full of life and energy? ';
+{a.innerHTML= '\xa0\xa0\xa0\xa0\xa0\xa0\xa0'+'Are you a person who is full of life and energy? ';
 b.innerHTML='Personality traits';}
  
  else if(no==7)
-{a.innerHTML= '\nPicture! Do you have a lot of friends? ';
+{a.innerHTML= '\xa0\xa0\xa0\xa0\xa0\xa0\xa0'+'Do you have a lot of friends? ';
 b.innerHTML='Friendship!';}
  
  else if(no==8)
-{a.innerHTML= '\nPicture! Are you sure that you connect with the right people? ';
+{a.innerHTML= '\xa0\xa0\xa0\xa0\xa0\xa0\xa0'+'Are you sure that you connect with the right people? ';
 b.innerHTML='Friendship Again!';}
  
  else if(no==9)
-{a.innerHTML= '\nPicture! Do you get angry very easily?';
+{a.innerHTML= '\xa0\xa0\xa0\xa0\xa0\xa0\xa0'+' Do you get angry very easily?';
 b.innerHTML='Personality traits';}
  
  else if(no==10)
-{a.innerHTML= '\nPicture! Rate your interest in Physics: ';
+{a.innerHTML= '\xa0\xa0\xa0\xa0\xa0\xa0\xa0'+' Rate your interest in Physics: ';
 b.innerHTML='Hobbies and Interests';}
  
  else if(no==11)
-{a.innerHTML= '\nPicture! Rate your interest in Science and Technology: ';
+{a.innerHTML= '\xa0\xa0\xa0\xa0\xa0\xa0\xa0'+' Rate your interest in Science and Technology: ';
 b.innerHTML='Hobbies and Interests';}
  
  else if(no==12)
-{a.innerHTML= '\nPicture! Rate your interest in Celebrity lifestyle: ';
+{a.innerHTML= '\xa0\xa0\xa0\xa0\xa0\xa0\xa0'+' Rate your interest in Celebrity lifestyle: ';
 b.innerHTML='Hobbies and Interests';}
  
  else if(no==13)
-{a.innerHTML= '\nPicture! Rate your interest in Adrenaline Sports: ';
+{a.innerHTML= '\xa0\xa0\xa0\xa0\xa0\xa0\xa0'+' Rate your interest in Adrenaline Sports: ';
 b.innerHTML='Hobbies and Interests';}
  
  else if(no==14)
-{a.innerHTML= '\nPicture! Rate your interest in Dancing: ';
+{a.innerHTML= '\xa0\xa0\xa0\xa0\xa0\xa0\xa0'+' Rate your interest in Dancing: ';
 b.innerHTML='Hobbies and Interests';}
  
  else 
-{a.innerHTML= '\nPicture! Rate your interest in Shopping: ';
+{a.innerHTML= '\xa0\xa0\xa0\xa0\xa0\xa0\xa0'+' Rate your interest in Shopping: ';
 b.innerHTML='Hobbies and Interests';}
  
  }
