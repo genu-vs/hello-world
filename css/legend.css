@@ -9,12 +9,8 @@ p.thick {
 #starthere
 {float:bottom;
 margin-bottom:10px;
+	align:center;
 }
-#description
-{  width:1200px;
-	height:3000px;
-	float:top;
-top-margin:20px;}
 
 #header
 {background-color :black;
@@ -81,13 +77,10 @@ float:left;}
 margin-left:20px;}
 
 
-#description1
+#description
 {width:1600px;
 height:3400px;
 display:block;}
-#description
-{width:1000px;
-}
 #gametitlebox
 {text-align:center;
 font-size:50px;
