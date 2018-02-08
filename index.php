@@ -13,7 +13,7 @@
 $ser="den1.mysql6.gear.host";
 $user="projectone";
 $pass="Kh8gT-vPWis-";
-$db="website";
+$db="projectone";
 $con=mysqli_connect($ser,$user,$pass,$db)
 ?>
 
@@ -41,8 +41,6 @@ $con=mysqli_connect($ser,$user,$pass,$db)
   $sql="SELECT views FROM one";
   $result = mysqli_query($con, $sql);
   $row = mysqli_fetch_assoc($result);
-  echo "hai";
-  echo $row["views"];
   ?>
 
 </div>
