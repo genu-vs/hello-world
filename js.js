@@ -169,7 +169,7 @@ var b=document.getElementById('gametitlebox');
 	b.innerHTML='A bit about you...';}
  
  else if(no==2)
-{a.innerHTML= '\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0'+'Do you care about your health? ';
+{a.innerHTML= '&nbsp&nbsp'+'Do you care about your health? ';
 b.innerHTML='A bit about you...';} 
  
  else if(no==3)
