@@ -169,7 +169,7 @@ var b=document.getElementById('gametitlebox');
 	b.innerHTML='A bit about you...';}
  
  else if(no==2)
-{a.innerHTML= '\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0'+'Do you care about your health? ';
+{a.innerHTML= '\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0'+'Do you care about your health? ';
 b.innerHTML='A bit about you...';} 
  
  else if(no==3)
@@ -181,7 +181,7 @@ b.innerHTML='A bit about you...';}
 b.innerHTML='Personality traits';}
  
  else if(no==5)
-{a.innerHTML= '\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0'+'Do you cry when you feel down or things do not go the right way? ';
+{a.innerHTML= '\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0'+'Do you cry when you feel down or things do not go the right way? ';
 b.innerHTML='Personality traits';}
  
  else if(no==6)
@@ -189,7 +189,7 @@ b.innerHTML='Personality traits';}
 b.innerHTML='Personality traits';}
  
  else if(no==7)
-{a.innerHTML= '\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0'+'Do you have a lot of friends? ';
+{a.innerHTML= '\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0'+'Do you have a lot of friends? ';
 b.innerHTML='Friendship!';}
  
  else if(no==8)
