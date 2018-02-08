@@ -50,8 +50,8 @@ height:550;
 #center1
 {
 background-color:dcdcdc;
-height:4600px;
-	width:1300px;
+height:3700px;
+	width:1800px;
 }
 
 
@@ -76,10 +76,13 @@ float:left;}
 	
 }
 
+#gamebox1
+{width:1600px;}
 
-#description
+
+#description1
 {width:1600px;
-height:3500px;
+height:3600px;
 display:block;}
 #gametitlebox
 {text-align:center;
