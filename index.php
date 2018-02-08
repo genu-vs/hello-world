@@ -52,9 +52,10 @@ echo "view no:" .$row["views"];
 <div id="gamebox1">
 
 
-<div id="starthere"><center><a href="goto.php"><img id="hm" src="image/start.jpg" ></a></center></div>
+
 
 	<div id="description"><img id="hhm" src="image/des.jpg"></div>
+	<div id="starthere"><center><a href="goto.php"><img id="hm" src="image/start.jpg" ></a></center></div>
          
     
 
