@@ -114,48 +114,48 @@ var a4=document.getElementById('ans4');
 var a5=document.getElementById('ans5');
 
 	if(z==0)
-	{a1.className="w3-button w3-white w3-border w3-border-green w3-round-large";
-	a2.className="w3-button w3-white w3-border w3-border-blue w3-round-large";
+	{a1.className="w3-button w3-white w3-border w3-border-red w3-round-large";
+	a2.className="w3-button w3-white w3-border w3-border-orange w3-round-large";
 	a3.className="w3-button w3-white w3-border w3-border-yellow w3-round-large";
-	a4.className="w3-button w3-white w3-border w3-border-orange w3-round-large";
-	a5.className="w3-button w3-white w3-border w3-border-red w3-round-large";
+	a4.className="w3-button w3-white w3-border w3-border-yelow w3-round-large";
+	a5.className="w3-button w3-white w3-border w3-border-green w3-round-large";
 	}
 	else if(z==1)
-	{a1.className="w3-button w3-green w3-border w3-border-green w3-round-large";
-	a2.className="w3-button w3-white w3-border w3-border-blue w3-round-large";
+	{a1.className="w3-button w3-red w3-border w3-border-red w3-round-large";
+	a2.className="w3-button w3-white w3-border w3-border-orange w3-round-large";
 	a3.className="w3-button w3-white w3-border w3-border-yellow w3-round-large";
-	a4.className="w3-button w3-white w3-border w3-border-orange w3-round-large";
-	a5.className="w3-button w3-white w3-border w3-border-red w3-round-large";
+	a4.className="w3-button w3-white w3-border w3-border-blue w3-round-large";
+	a5.className="w3-button w3-white w3-border w3-border-green w3-round-large";
 	}
 	else if(z==2)
-	{a1.className="w3-button w3-white w3-border w3-border-green w3-round-large";
-	a2.className="w3-button w3-blue w3-border w3-border-blue w3-round-large";
+	{a1.className="w3-button w3-white w3-border w3-border-red w3-round-large";
+	a2.className="w3-button w3-orange w3-border w3-border-orange w3-round-large";
 	a3.className="w3-button w3-white w3-border w3-border-yellow w3-round-large";
-	a4.className="w3-button w3-white w3-border w3-border-orange w3-round-large";
-	a5.className="w3-button w3-white w3-border w3-border-red w3-round-large";
+	a4.className="w3-button w3-white w3-border w3-border-blue w3-round-large";
+	a5.className="w3-button w3-white w3-border w3-border-green w3-round-large";
 	}
 	else if(z==3)
-	{a1.className="w3-button w3-white w3-border w3-border-green w3-round-large";
-	a2.className="w3-button w3-white w3-border w3-border-blue w3-round-large";
+	{a1.className="w3-button w3-white w3-border w3-border-red w3-round-large";
+	a2.className="w3-button w3-white w3-border w3-border-orange w3-round-large";
 	a3.className="w3-button w3-yellow w3-border w3-border-yellow w3-round-large";
-	a4.className="w3-button w3-white w3-border w3-border-orange w3-round-large";
-	a5.className="w3-button w3-white w3-border w3-border-red w3-round-large";
+	a4.className="w3-button w3-white w3-border w3-border-blue w3-round-large";
+	a5.className="w3-button w3-white w3-border w3-border-green w3-round-large";
 	}
 	else if(z==4)
-	{a1.className="w3-button w3-white w3-border w3-border-green w3-round-large";
-	a2.className="w3-button w3-white w3-border w3-border-blue w3-round-large";
+	{a1.className="w3-button w3-white w3-border w3-border-red w3-round-large";
+	a2.className="w3-button w3-white w3-border w3-border-orange w3-round-large";
 	a3.className="w3-button w3-white w3-border w3-border-yellow w3-round-large";
-	a4.className="w3-button w3-orange w3-border w3-border-orange w3-round-large";
-	a5.className="w3-button w3-white w3-border w3-border-red w3-round-large";
+	a4.className="w3-button w3-blue w3-border w3-border-blue w3-round-large";
+	a5.className="w3-button w3-white w3-border w3-border-green w3-round-large";
 	}
 
 	else
 	{
-	a1.className="w3-button w3-white w3-border w3-border-green w3-round-large";
-	a2.className="w3-button w3-white w3-border w3-border-blue w3-round-large";
+	a1.className="w3-button w3-white w3-border w3-border-red w3-round-large";
+	a2.className="w3-button w3-white w3-border w3-border-orange w3-round-large";
 	a3.className="w3-button w3-white w3-border w3-border-yellow w3-round-large";
-	a4.className="w3-button w3-white w3-border w3-border-orange w3-round-large";
-	a5.className="w3-button w3-red w3-border w3-border-red w3-round-large";
+	a4.className="w3-button w3-white w3-border w3-border-blue w3-round-large";
+	a5.className="w3-button w3-green w3-border w3-border-green w3-round-large";
 	} }
 	
 }
