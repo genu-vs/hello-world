@@ -54,8 +54,8 @@ $con=mysqli_connect($ser,$user,$pass,$db)
 echo "view no:" .$row["views"];
 ?>
 </div>
-
-<div id="starthere"><center><a href="goto.php"><img id="hm" src="image/start.jpg" ></a></center><div>
+	<div id="description1"><img id="hhm" src="image/des.jpg"></div>
+<div id="starthere"><center><a href="goto.php"><img id="hm" src="image/start.jpg" ></a></center></div>
 
 </div>
 
