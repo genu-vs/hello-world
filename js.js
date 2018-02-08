@@ -165,63 +165,63 @@ function setqu(no)
 var b=document.getElementById('gametitlebox');
 	
 	if(no==1)
-	{a.innerHTML= '\n.         Gender';
+	{a.innerHTML= '\nPicture! Gender';
 	b.innerHTML='A bit about you...';}
  
  else if(no==2)
-{a.innerHTML= ' \n.         Do you care about your health? ';
+{a.innerHTML= ' \nPicture! Do you care about your health? ';
 b.innerHTML='A bit about you...';} 
  
  else if(no==3)
-{a.innerHTML= '\n.         Can you quickly adapt to a new environment? ';
+{a.innerHTML= '\nPicture! Can you quickly adapt to a new environment? ';
 b.innerHTML='A bit about you...';}
  
  else if(no==4)
-{a.innerHTML= '\n.         Are you a hypochondriac? \n (Meaning: A person who is abnormally anxious) ';
+{a.innerHTML= '\nPicture! Are you a hypochondriac? \n (Meaning: A person who is abnormally anxious) ';
 b.innerHTML='Personality traits';}
  
  else if(no==5)
-{a.innerHTML= '\n.         Do you cry when you feel down or things do not go the right way? ';
+{a.innerHTML= '\nPicture! Do you cry when you feel down or things do not go the right way? ';
 b.innerHTML='Personality traits';}
  
  else if(no==6)
-{a.innerHTML= '\n.         Are you a person who is full of life and energy? ';
+{a.innerHTML= '\nPicture! Are you a person who is full of life and energy? ';
 b.innerHTML='Personality traits';}
  
  else if(no==7)
-{a.innerHTML= '\n.         Do you have a lot of friends? ';
+{a.innerHTML= '\nPicture! Do you have a lot of friends? ';
 b.innerHTML='Friendship!';}
  
  else if(no==8)
-{a.innerHTML= '\n.         Are you sure that you connect with the right people? ';
+{a.innerHTML= '\nPicture! Are you sure that you connect with the right people? ';
 b.innerHTML='Friendship Again!';}
  
  else if(no==9)
-{a.innerHTML= '\n.         Do you get angry very easily?';
+{a.innerHTML= '\nPicture! Do you get angry very easily?';
 b.innerHTML='Personality traits';}
  
  else if(no==10)
-{a.innerHTML= '\n.         Rate your interest in Physics: ';
+{a.innerHTML= '\nPicture! Rate your interest in Physics: ';
 b.innerHTML='Hobbies and Interests';}
  
  else if(no==11)
-{a.innerHTML= '\n.         Rate your interest in Science and Technology: ';
+{a.innerHTML= '\nPicture! Rate your interest in Science and Technology: ';
 b.innerHTML='Hobbies and Interests';}
  
  else if(no==12)
-{a.innerHTML= '\n.         Rate your interest in Celebrity lifestyle: ';
+{a.innerHTML= '\nPicture! Rate your interest in Celebrity lifestyle: ';
 b.innerHTML='Hobbies and Interests';}
  
  else if(no==13)
-{a.innerHTML= '\n.         Rate your interest in Adrenaline Sports: ';
+{a.innerHTML= '\nPicture! Rate your interest in Adrenaline Sports: ';
 b.innerHTML='Hobbies and Interests';}
  
  else if(no==14)
-{a.innerHTML= '\n.         Rate your interest in Dancing: ';
+{a.innerHTML= '\nPicture! Rate your interest in Dancing: ';
 b.innerHTML='Hobbies and Interests';}
  
  else 
-{a.innerHTML= '\n.         Rate your interest in Shopping: ';
+{a.innerHTML= '\nPicture! Rate your interest in Shopping: ';
 b.innerHTML='Hobbies and Interests';}
  
  }
@@ -329,7 +329,7 @@ function sub()
 	{var z=[0.00000,0.00000,0.00000,0.00000,0.00000,0.00000,0.00000,0.00000,0.00000];
 z[0]=((-0.02366)*an[12])+((0.17116)*an[1])-((0.05705)*an[2])-((1.07431));
 z[1]=((0.10235)*an[13])+((0.08305)*an[14])-((0.16216)*an[11])-((1.38154));
-z[2]=((0.11495)*an[14])-((0.08772)*an[10])-((0.62752));
+z[2]=((0.11495)*an[14])-((0.08772)*an[10])-((0.32752));
 z[3]=((0.18360)*an[14])+((0.13228)*an[11])-((0.14065)*an[4])+((0.15385)*an[8])-(1.07338);
 z[4]=((0.15889)*an[14])+((0.28112)*an[1])-((0.16080)*an[4])-((0.70052));
 z[5]=((0.14571)*an[11])-((0.14720)*an[9])+((0.09738)*an[1])-((0.68008));
@@ -348,7 +348,7 @@ res[i]=Math.trunc(zzz);
 	{var z=[0.00000,0.00000,0.00000,0.00000,0.00000,0.00000,0.00000,0.00000,0.00000];
 z[0]=((-0.11843)*an[12])+((0.07202)*an[1])-((0.08254)*an[4])-((0.84639));
 z[1]=((0.07072)*an[14])+((0.08889)*an[11])+((0.31000)*an[4])-((2.51546));
-z[2]=((0.11075)*an[14])-((0.14565)*an[10])+((0.18008)*an[8])-((0.71118));
+z[2]=((0.11075)*an[14])-((0.14565)*an[10])+((0.18008)*an[8])-((0.41118));
 z[3]=((0.20454)*an[14])-((0.09339)*an[11])+((0.16482)*an[4])+((0.18967)*an[8])-(1.46160);
 z[4]=((0.06079)*an[14])+((0.13857)*an[11])+((0.15544)*an[4])-((0.60228));
 z[5]=((0.08561)*an[14])+((0.09078)*an[11])-((0.13000)*an[9])+((0.20855)*an[4])-((1.24964));
