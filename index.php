@@ -5,8 +5,8 @@
 
 <title>FACE YOUR FEAR</title>
 <meta charset="UTF-8">
-  <meta name="description" content="tell me what you are i will tell your fears are ,fear predector ">
-  <meta name="keywords" content="fear predictor,face your fear">
+  <meta name="description" content="face your fear, tell me what you are i will tell your fears are, fear predictor ">
+  <meta name="keywords" content="fear predictor, face your fear">
   <meta name="author" content="Venkatesh,Genu vs">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="css/legend.css"/>
